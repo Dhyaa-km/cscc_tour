@@ -8,14 +8,18 @@ j = list2.length -1 ;
 
 test = 1;
 
-// wrong one -_-
-// for (let i = 0; i < list.length; i++) {
-//     if (list[i] !== list2[j]) {
+
+// wrong one :
+
+/* for (let i = 0; i < list.length; i++) {
+    if (list[i] !== list2[j]) {
         
-//         test = 0;
-//         j--;
-//     }
-// }
+        test = 0;
+        j--;
+    }
+} */
+
+// true one
 for (let i = 0; i < list.length; i++) {
     if (list[i] !== list2[j]) {
         
