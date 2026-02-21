@@ -25,7 +25,7 @@ int prblmB(){
 int main(){
     int kilos ;
      printf("give kilos: ");
-    scanf("%d", &kilos);
+     scanf("%d", &kilos);
 
     prblmB();
     return 0;
